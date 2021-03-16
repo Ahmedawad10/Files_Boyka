@@ -34,6 +34,11 @@ send(msg.chat_id_, msg.id_,'❃∫ تم تعطيل ردود البوت')
 return false
 end
 
+if text == "صاحب السورس" or text == "مطور السورس" or text == "مالك السورس" or text == "ماديسون" or text == "احمد" then
+send(msg.chat_id_,msg.id_, '[مطور سورس جوكس](t.me/AAHMEED11)') 
+return false
+end
+
 end
 return {
 Poyka = Reply
